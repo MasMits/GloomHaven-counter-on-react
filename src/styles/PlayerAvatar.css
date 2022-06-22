@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@700&display=swap');
+
 .img-container {
     position: relative;
     width: 300px;
@@ -25,10 +27,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
-    /*font-family: "Grenze Gotisch";*/
+    font-family: "Grenze Gotisch";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
+    padding-bottom: 7px;
 }
 
 .counter-container {
