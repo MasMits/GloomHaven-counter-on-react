@@ -2,7 +2,7 @@
 
 
 
-<h1 align="center">Hi there, my <a href="https://daniilshat.ru/" target="_blank"> GLOOMHAVEN-counter</a> 
+<h1 align="center">Hi, here is my <a href="https://masmits.github.io/GloomHaven-counter-on-react/" target="_blank"> GLOOMHAVEN-counter</a> 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 <h3 align="center">The project was created for the more exciting board game Gloomhaven. It replaces the standard life and experience counter in the game.</h3>
 
