@@ -1,5 +1,8 @@
 import React, {useState} from "react";
 import Player from "./components/Player";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+
 import './styles/App.css';
 //
 import player_1 from "./img/PlayerSkin/Player_1.png";
@@ -7,16 +10,6 @@ import player_2 from "./img/PlayerSkin/Player_2.png";
 import player_3 from "./img/PlayerSkin/Player_3.png";
 import player_4 from "./img/PlayerSkin/Player_4.png";
 
-
-
-
-// function player(name, life, exp, img) {
-//     this.name = name;
-//     this.life = life;
-//     this.exp = exp;
-//     this.img = img;
-//
-// }
 
 function App() {
     const [players, setPlayer] = useState([
@@ -27,15 +20,21 @@ function App() {
     ])
 
 
-  return (
-    <div className="App">
-        <div className="wrapper">
-            {players.map((players) =>
-                <Player player={players.player} key= {players.id} />
-            )}
+    return (
+        <div className="App">
+            <div className="wrapper">
+                <Header/>
+                <div className="content">
+                    <div className="player-container">
+                        {players.map((players) =>
+                            <Player player={players.player} key= {players.id} />
+                        )}
+                    </div>
+                </div>
+                <Footer/>
+            </div>
         </div>
-    </div>
-  );
+    );
 }
 
 export default App;

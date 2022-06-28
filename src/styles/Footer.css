@@ -1,0 +1,12 @@
+
+.footer {
+    background-color: #252525;
+    height: 45px;
+}
+
+.footer__text {
+    font-size: 14px;
+    color: rgba(193, 193, 193, 1);
+    margin-top: 20px;
+    margin-left: 30px;
+}
