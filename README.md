@@ -10,21 +10,22 @@
 
 ## 🟣 Demo 
 - Github pages -> [ link ](https://masmits.github.io/GloomHaven-counter-on-react/)
-<div align="center"><img src="https://s8.gifyu.com/images/103b6b3e987790f1c.gif" alt="GloomHaven"></div>
+<div align="center"><img src="https://s8.gifyu.com/images/GloomHaven.gif" alt="GloomHaven"></div>
 
 ---
 
 ## 🟣 Stack technologies
 -   HTML, CSS
 -   JavaScript
--   React
+-   React (useState, useContext)
 
 ---
 ## 🟣 Roadmap
 - [x] Change project fonts
-- [ ] Make a module header
-- [ ] Make a module footer
-- [ ] Add an experience icon. 
+- [x] Make a module header
+- [x] Make a module footer
+- [x] Add an experience icon
+- [x] Change avatar for character death
 - [ ] Make module header icons
 - [ ] Save progress by link
 - [ ] Save progress by Qr-code

@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/GloomHaven-counter-on-react/static/css/main.85958ac2.css",
-    "main.js": "/GloomHaven-counter-on-react/static/js/main.e6812b52.js",
+    "main.css": "/GloomHaven-counter-on-react/static/css/main.0d60605f.css",
+    "main.js": "/GloomHaven-counter-on-react/static/js/main.ab87713f.js",
     "static/media/tavern.png": "/GloomHaven-counter-on-react/static/media/tavern.5ccfd55f59ba86ca9de5.png",
     "static/media/Player_2.png": "/GloomHaven-counter-on-react/static/media/Player_2.b4f6aa8bcf2d31552ab5.png",
     "static/media/Player_1.png": "/GloomHaven-counter-on-react/static/media/Player_1.0741540260285815aa1f.png",
     "static/media/Player_4.png": "/GloomHaven-counter-on-react/static/media/Player_4.d2e0359a981cadd69ed8.png",
     "static/media/Player_3.png": "/GloomHaven-counter-on-react/static/media/Player_3.3ba6323da0021e2dd815.png",
+    "static/media/map.svg": "/GloomHaven-counter-on-react/static/media/map.6e6b5618204c96335dbfd92b7e6a98f5.svg",
     "static/media/banner.svg": "/GloomHaven-counter-on-react/static/media/banner.b96676fecd149dc0ad0769fb0c233722.svg",
+    "static/media/safe.svg": "/GloomHaven-counter-on-react/static/media/safe.20a09e104357700a814dcd8185d2a36e.svg",
+    "static/media/refreshing.svg": "/GloomHaven-counter-on-react/static/media/refreshing.5363b41f3a3d8eb7b6516bea9775b054.svg",
     "static/media/left.svg": "/GloomHaven-counter-on-react/static/media/left.4d2733992a5d978a7ee6d6a35708497e.svg",
     "static/media/right.svg": "/GloomHaven-counter-on-react/static/media/right.c29152dc2f4f1b8e9a95f27111e161b3.svg",
     "index.html": "/GloomHaven-counter-on-react/index.html",
     "static/media/heart.svg": "/GloomHaven-counter-on-react/static/media/heart.5f26c2a58f92ee74825f70c82339114d.svg",
-    "main.85958ac2.css.map": "/GloomHaven-counter-on-react/static/css/main.85958ac2.css.map",
-    "main.e6812b52.js.map": "/GloomHaven-counter-on-react/static/js/main.e6812b52.js.map"
+    "main.0d60605f.css.map": "/GloomHaven-counter-on-react/static/css/main.0d60605f.css.map",
+    "main.ab87713f.js.map": "/GloomHaven-counter-on-react/static/js/main.ab87713f.js.map"
   },
   "entrypoints": [
-    "static/css/main.85958ac2.css",
-    "static/js/main.e6812b52.js"
+    "static/css/main.0d60605f.css",
+    "static/js/main.ab87713f.js"
   ]
 }

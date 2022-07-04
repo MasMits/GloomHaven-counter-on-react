@@ -1,30 +1,30 @@
-import React, {useState} from 'react';
-import heart from "../img/interface/heart.svg";
+import React, {useContext} from 'react';
 import left from "../img/interface/left.svg";
 import right from "../img/interface/right.svg";
 import '../styles/Counter.css';
+import {PlayerContext} from "./Player"
 
 
 const Counter = (props) => {
-    const [count, setCount] = useState(props.number);
+    const context = useContext(PlayerContext);
 
     function increment(){
-        setCount(count + 1);
+        context.methods.increment(props.type);
     }
 
     function decrement(){
-        setCount(count - 1);
+        context.methods.decrement(props.type);
     }
 
     return (
         <div>
             <div className = "counter">
                 <button onClick={decrement}><img src={left} alt=""/></button>
-                <h1 className = "number">{count}</h1>
+                <h1 className = "number">{context.player[props.type.type]}</h1>
                 <button onClick={increment}><img src={right} alt=""/></button>
             </div>
             <div className = "icon_box">
-                <img className = "icon" src={heart} alt=""/>
+                <img className = "icon" src={props.type.img} alt=""/>
             </div>
         </div>
 
