@@ -26,9 +26,9 @@
 - [x] Make a module footer
 - [x] Add an experience icon
 - [x] Change avatar for character death
+- [x] Add drop & drag
 - [ ] Make module header icons
 - [ ] Save progress by link
 - [ ] Save progress by Qr-code
-- [ ] Add drop & drag
 - [ ] Adding and Removing Players
 - [ ] Add adaptability on mobile

@@ -21,10 +21,10 @@ const Player = (props) => {
 
     return (
         <PlayerContext.Provider value={{player, methods}}>
-            <div className="player">
-                <PlayerAvatar/>
-                <Counter type={{type: "life", img: heart}}/>
-                <Counter type={{type: "exp", img: star}}/>
+            <div className="player" draggable={false}>
+                <PlayerAvatar draggable={false}/>
+                <Counter type={{type: "life", img: heart}} draggable={false}/>
+                <Counter type={{type: "exp", img: star}} draggable={false}/>
             </div>
         </PlayerContext.Provider>
     );

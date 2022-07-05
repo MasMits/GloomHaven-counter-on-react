@@ -7,16 +7,16 @@ import {PlayerContext} from "./Player"
 const PlayerAvatar = () => {
     const context = useContext(PlayerContext);
     return (
-        <div className="img-container">
+        <div className="img-container" draggable={false}>
             {
                 context.player.life < 1
-                ? <img id="fourth" src= {context.player.dark_img} alt="img"/>
-                : <img id="fourth" src= {context.player.img} alt="img"/>
+                ? <img id="fourth" src= {context.player.dark_img} alt="img" draggable={false}/>
+                : <img id="fourth" src= {context.player.img} alt="img" draggable={false}/>
             }
                 <div className="banner">
-                    <img src={banner} alt="img"/>
+                    <img src={banner} alt="img" draggable={false}/>
                     </div>
-                <div className="name">{context.player.name}</div>
+                <div className="name" draggable={false}>{context.player.name}</div>
         </div>
     );
 

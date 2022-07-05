@@ -19,12 +19,12 @@ const Counter = (props) => {
     return (
         <div>
             <div className = "counter">
-                <button onClick={decrement}><img src={left} alt=""/></button>
-                <h1 className = "number">{context.player[props.type.type]}</h1>
-                <button onClick={increment}><img src={right} alt=""/></button>
+                <button onClick={decrement}><img src={left} alt="" draggable={false}/></button>
+                <h1 className = "number" draggable={false}>{context.player[props.type.type]}</h1>
+                <button onClick={increment} draggable={false}><img src={right} alt=""/></button>
             </div>
             <div className = "icon_box">
-                <img className = "icon" src={props.type.img} alt=""/>
+                <img className = "icon" src={props.type.img} alt="" draggable={false}/>
             </div>
         </div>
 
