@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GloomHaven-counter-on-react/static/css/main.ae34577d.css",
-    "main.js": "/GloomHaven-counter-on-react/static/js/main.5285d67d.js",
+    "main.js": "/GloomHaven-counter-on-react/static/js/main.45225b22.js",
     "static/media/tavern.png": "/GloomHaven-counter-on-react/static/media/tavern.5ccfd55f59ba86ca9de5.png",
     "static/media/Player_2.png": "/GloomHaven-counter-on-react/static/media/Player_2.b4f6aa8bcf2d31552ab5.png",
     "static/media/Player_1.png": "/GloomHaven-counter-on-react/static/media/Player_1.0741540260285815aa1f.png",
@@ -21,10 +21,10 @@
     "index.html": "/GloomHaven-counter-on-react/index.html",
     "static/media/heart.svg": "/GloomHaven-counter-on-react/static/media/heart.5f26c2a58f92ee74825f70c82339114d.svg",
     "main.ae34577d.css.map": "/GloomHaven-counter-on-react/static/css/main.ae34577d.css.map",
-    "main.5285d67d.js.map": "/GloomHaven-counter-on-react/static/js/main.5285d67d.js.map"
+    "main.45225b22.js.map": "/GloomHaven-counter-on-react/static/js/main.45225b22.js.map"
   },
   "entrypoints": [
     "static/css/main.ae34577d.css",
-    "static/js/main.5285d67d.js"
+    "static/js/main.45225b22.js"
   ]
 }
