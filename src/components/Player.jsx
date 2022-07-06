@@ -12,10 +12,10 @@ const Player = (props) => {
     const [player, setPlayer] = useState(props.player);
     const methods = {
         increment: (key) => {
-            setPlayer({...player, [key.type]: ++player[key.type]})
+            setPlayer({...player, [key]: ++player[key]})
         },
         decrement:(key) =>{
-            setPlayer({...player, [key.type]: --player[key.type]})
+            setPlayer({...player, [key]: --player[key]})
         }
     };
 
@@ -23,8 +23,8 @@ const Player = (props) => {
         <PlayerContext.Provider value={{player, methods}}>
             <div className="player" draggable={false}>
                 <PlayerAvatar draggable={false}/>
-                <Counter type={{type: "life", img: heart}} draggable={false}/>
-                <Counter type={{type: "exp", img: star}} draggable={false}/>
+                <Counter type={"life"} img = {heart} draggable={false}/>
+                <Counter type={"exp"} img = {star} draggable={false}/>
             </div>
         </PlayerContext.Provider>
     );
