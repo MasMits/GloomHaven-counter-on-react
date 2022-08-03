@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../styles/Header.css';
 import safe from "../img/interface/header/safe.svg";
 import map from "../img/interface/header/map.svg";
@@ -20,7 +20,7 @@ const Header = (props) => {
                     <button><img className="history" src= {map} alt="img"/></button>
                 </div>
                 <div className="header__icon">
-                    <button><img className="history" src= {safe} alt="img"/></button>
+                    <button onClick={() => props.method(true)}><img className="history" src= {safe} alt="img"/></button>
                 </div>
                 <div className="header__icon">
                     <button><img className="history" src= {refreshing} alt="img"/></button>
