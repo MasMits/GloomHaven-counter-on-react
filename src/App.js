@@ -8,6 +8,9 @@ import './styles/App.css';
 //
 import player_1 from "./img/PlayerSkin/Player_1.png";
 import player_2 from "./img/PlayerSkin/Player_2.png";
+import sunKeeper from "./img/PlayerSkin/SunKeeper.png";
+import kuatril from "./img/PlayerSkin/Kuatril.png";
+import orxid from "./img/PlayerSkin/Orxid.png";
 import player_3 from "./img/PlayerSkin/Player_3.png";
 import player_4 from "./img/PlayerSkin/Player_4.png";
 import player_5 from "./img/PlayerSkin/Player_5.png";
@@ -20,8 +23,9 @@ import darkPlayer_4 from "./img/PlayerSkin/darkPlayer_4.png";
 
 function App() {
     const [players, setPlayer] = useState([
-        {id:1, order: 1, player: {name:"Taf", life: 10, exp: 0, img: player_1, dark_img: darkPlayer_1} },
-        {id:2, order: 2, player: {name:"Autonomous", life: 10, exp: 0, img: player_5, dark_img: darkPlayer_2} },
+        {id:1, order: 1, player: {name:"Autonomous", life: 10, exp: 0, img: orxid, dark_img: darkPlayer_1, color: '#77c4d2'} },
+        {id:2, order: 2, player: {name:"Marcus", life: 10, exp: 0, img: kuatril, dark_img: darkPlayer_2, color: '#d2a877'} },
+        {id:3, order: 3, player: {name:"Tamiba", life: 0, exp: 0, img: sunKeeper, dark_img: darkPlayer_2, color: '#d2a877'} },
         // {id:2, order: 2, player: {name:"Calista", life: 0, exp: 0, img: player_2, dark_img: darkPlayer_2} },
         // {id:3, order: 3, player: {name:"Damir", life: 20, exp: 0, img: player_3, dark_img: darkPlayer_3} },
         // {id:4, order: 4, player: {name:"Hamlet", life: 20, exp: 0, img: player_4, dark_img: darkPlayer_4} },
@@ -72,7 +76,7 @@ function App() {
     return (
         <div className="App">
             <div className="wrapper">
-                <Header method={setModalActive}/>
+                {/*<Header method={setModalActive}/>*/}
                 <div className="content">
                     <div className="player-container">
                         {players.sort(sortCards).map((players) =>
@@ -90,7 +94,7 @@ function App() {
                         )}
                     </div>
                 </div>
-                <Footer/>
+                {/*<Footer/>*/}
                 <Modal active={modalActive} setActive={setModalActive}>
                     <h1>Save your progress</h1>
 

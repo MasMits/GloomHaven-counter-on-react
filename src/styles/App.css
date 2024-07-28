@@ -21,7 +21,8 @@
 }
 
 html {
-    background-image: url(../img/background/tavern.png);
+    position: relative;
+    background-image: url(../img/background/sea.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -29,6 +30,17 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+html::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
+    pointer-events: none;
 }
 
 button{
